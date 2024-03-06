@@ -1,4 +1,4 @@
-###Ejercicio, hacer uso de bucles anidados para poder imprimir:
+###Ejercicio, hacer uso de bucles anidados para poder imprimir el dibujo de la siguiente F:
 #
 # xxxxx
 # xx
@@ -15,9 +15,8 @@ for mult in numbers:
 print('\n')
 
 #con bucle anidado, el truco es que en python puedes sumar con strings
-str = ''
 for item in numbers:
+    str = ''
     for i in range(item):
         str += 'x'
     print(str)
-    str = ''
