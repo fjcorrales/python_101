@@ -21,3 +21,4 @@ print(cliente.get("cumpleaños", "24 de agosto"))
 #y podemos añadir pares simplemente haciendo una modificacion
 cliente["cumpleaños"] = "24 de agosto"  #esto añade este par clave-valor al diccionario
 print(cliente["cumpleaños"])
+
