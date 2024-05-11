@@ -10,5 +10,6 @@ print(conversores.lbs_to_kg(177))
 
 #no existe solo esta forma de realizar importaciones de modulos
 #haciendo de uso de la sentencia "from" podemos importar una unica funcion a nuestro fichero
-from conversores import kg_to_lbs
+from conversores import kg_to_lbs, lbs_to_kg    #tambien podemos importar varias funciones de una usando la ','
 print(kg_to_lbs(100))
+print(lbs_to_kg(222))
