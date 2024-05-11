@@ -1,5 +1,6 @@
 #haremos uso de algunas de las librerias predefinidas con las que viene python
 #se pueden buscar las diferentes librerias estandar de pyhton en google https://docs.python.org/3/py-modindex.html
+#aasimismo se puede acceder a la pagina https://pypi.org/ para buscar librerias utiles
 #vamos a usar la libreria 'random' que nos permite generar valores aleatorios
 
 #dado que random es un modulo integrado no es necesario que tengamos un fichero en nuestro proyecto
