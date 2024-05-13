@@ -14,10 +14,11 @@ def procesamiento_excel(nombre):
     # sheet.cell(1, 1)    #con la funcion cell() y pasandole la coordenada generica de una matriz
     # print(sheet.max_row)    #nos devuelve el numero maximo de filas que tiene el excel
 
-    for fila in range(2,
-                      sheet.max_row + 1):  # el in range excluye el ultimo valor pasado como argumento, por eso el +1 y empezamos en 2 para ignorar los nombres de las columnas
+    for fila in range(2, sheet.max_row + 1):  # el in range excluye el ultimo valor pasado como argumento, por eso el +1
+        # y empezamos en 2 para ignorar los nombres de las columnas
         columna = sheet.cell(fila, 3)
-        precio_corregido = columna.value * 0.9  # corregimos el valor del precio almacenado en la tercera columna ya que estos han de estar al 90%
+        precio_corregido = columna.value * 0.9  # corregimos el valor del precio almacenado en la tercera columna ya
+        # que estos han de estar al 90%
         precio_ok = sheet.cell(fila, 4)
         precio_ok.value = precio_corregido
 
