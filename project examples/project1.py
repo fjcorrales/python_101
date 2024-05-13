@@ -6,7 +6,7 @@ from openpyxl.chart import BarChart, Reference  # importamos las librerias neces
 
 
 def procesamiento_excel(nombre):
-    wb = xl.load_workbook('nombre')  # esta funcion abre el excel
+    wb = xl.load_workbook(nombre)  # esta funcion abre el excel
     sheet = wb['Hoja 1']  # esto nos permite acceder a las paginas dentro del ecel
 
     # para acceder a una columna lo podemos hacer de dos formas
@@ -27,7 +27,7 @@ def procesamiento_excel(nombre):
     grafico.add_data(valores)  # llenamos el grafico
     sheet.add_chart(grafico, 'e2')  # adjuntamos el grafico
 
-    wb.save('nombre')  # con esto guardamos el excel
+    wb.save(nombre)  # con esto guardamos el excel
 
 
 procesamiento_excel('transacciones.xlsx')
