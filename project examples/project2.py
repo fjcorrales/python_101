@@ -1,1 +1,1 @@
-#este proyecto ratara de implementar machine learning con python
+#este proyecto tratara de implementar machine learning con python
