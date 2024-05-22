@@ -15,8 +15,7 @@
 #https://www.anaconda.com/download/success
 #https://jupyter.org
 
-#tras instalar anaconda hemos de ejecutar en nuestra consola de comandos o terminal 'jupyter notebook'
+#tras instalar anaconda hemos de ejecutar en la consola de comandos o terminal de anaconda 'jupyter notebook'
 #esto nos abrira una pestaña en el navegador que nos permitira navegar nuestro directorio, desde aqui
 #hemos de crear un python notebook en el directorio que queramos, esto nos permitira ejecutar codigo de pyton desde
-#el mismo navegador dentro de nuestra instancia de jupyter
-
+#el mismo navegador dentro de nuestra instancia de jupyte
